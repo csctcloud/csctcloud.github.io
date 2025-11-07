@@ -1,28 +1,28 @@
-name: Deploy updated documentation to Github Pages
+# name: Deploy updated documentation to Github Pages
 
-on:
-  push:
-    branches:
-      - main
-    paths:
-      - site/*
+# on:
+#   push:
+#     branches:
+#       - main
+#     paths:
+#       - site/*
 
-  workflow_dispatch:
+#   workflow_dispatch:
 
-permissions:
-  contents: write
+# permissions:
+#   contents: write
 
-jobs:
-  build-and-deploy:
-    concurrency: ci-${{ github.ref }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+# jobs:
+#   build-and-deploy:
+#     concurrency: ci-${{ github.ref }}
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v4
 
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: site
-          repository-name: csctcloud/csctcloud.github.io
+#       - name: Deploy
+#         uses: JamesIves/github-pages-deploy-action@v4
+#         with:
+#           folder: site
+#           repository-name: csctcloud/csctcloud.github.io
           
