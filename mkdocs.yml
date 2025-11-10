@@ -54,7 +54,7 @@ nav:
     - Connect with the terminal: connecting/terminal.md
     - Setup Visual Studio Code: connecting/vscode.md
   - MySQL on CSCT Cloud:
-    - Your login details: mysql/login.md
+    - MySQL login details: mysql/login.md
     - Using the MySQL shell: mysql/cli.md
     - MySQL with a graphical interface: mysql/gui.md
   - Additional Topics:
