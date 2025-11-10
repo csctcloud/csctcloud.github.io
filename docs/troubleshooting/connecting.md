@@ -260,5 +260,5 @@ Open this file in Visual Studio Code and check it against the example below:
 Some things to check for:
 
 * Hostname is `csctcloud.uwe.ac.uk`, spelt correctly
-* User is your full UWE email address, all in lowercase, for example: `a.student@live.uwe.ac.uk`
+* User is your full UWE email address, all in lowercase and including the host portion, for example: `a.student@live.uwe.ac.uk`
 * If specified, IdentifyFile points to a private SSH key file which definitely exists
