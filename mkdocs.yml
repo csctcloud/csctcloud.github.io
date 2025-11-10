@@ -57,6 +57,9 @@ nav:
     - MySQL login details: mysql/login.md
     - Using the MySQL shell: mysql/cli.md
     - MySQL with a graphical interface: mysql/gui.md
+  - Troubleshooting:
+    - Connection issues: troubleshooting/connecting.md
+    - Azure CLI: troubleshooting/azure-cli.md
   - Additional Topics:
     - Terminal programs: additional/terminals.md
     - Installing OpenSSH: additional/install-openssh.md
