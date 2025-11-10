@@ -25,7 +25,7 @@ Click the *Add Connection* icon (top right of the explorer window) and the *Conn
 * Connection Name (optional): CSCT Cloud
 * Host: 127.0.0.1
 * Port: 3306
-* Username: [your database account username](./login.md)
+* Username: [your database account username](./login.md#your-database-account-username)
 * Password: [the password you set](./login.md#changing-your-password)
 
 Once you click the *Connect* button, your connection with the server should be established and you should be able to see MySQL databases which you have the appropriate permissions to access:
@@ -54,7 +54,7 @@ This will enter a new window for you to enter connection parameters, fill out th
 * Connection Name: CSCT Cloud
 * Hostname: 127.0.0.1
 * Port: 3306
-* Username: [your database account username](./login.md)
+* Username: [your database account username](./login.md#your-database-account-username)
 
 !!! note
     You will need to setup [Port Forwarding](../additional/port-forwarding.md) to be able to connect MySQL Workbench, installed on your local computer, to CSCT Cloud.
