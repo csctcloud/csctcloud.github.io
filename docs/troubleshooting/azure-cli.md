@@ -1,0 +1,1 @@
+# Issues running or installing Azure CLI
