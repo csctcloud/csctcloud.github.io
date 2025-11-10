@@ -53,6 +53,11 @@ nav:
   - Connecting to the server: 
     - Connect with the terminal: connecting/terminal.md
     - Setup Visual Studio Code: connecting/vscode.md
+  - MySQL on CSCT Cloud:
+    - Your login details: mysql/login.md
+    - Using the MySQL shell: mysql/cli.md
+    - MySQL with a graphical interface: mysql/gui.md
   - Additional Topics:
     - Terminal programs: additional/terminals.md
     - Installing OpenSSH: additional/install-openssh.md
+    - Port forwarding: additional/port-forwarding.md
