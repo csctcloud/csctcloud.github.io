@@ -3,6 +3,9 @@ The most common error people receive when trying to connect to the server is `Pe
 
 Below are some steps you can follow to try and identify where the issue is and resolve it. If this doesn't help, going back to the beginning ([Generating SSH Keys](../getting-started/generate-keys.md)) and trying again is normally the best solution.
 
+!!! note
+    If you can connect to CSCT Cloud using the terminal, but not using Visual Studio Code, skip to [checking your SSH configuration file](#check-your-ssh-configuration-file).
+
 ## Check you have a valid SSH keypair
 We'll start by checking you have valid public and private keys available.
 
@@ -17,7 +20,7 @@ When you generated your keypair two files (`id_rsa` and `id_rsa.pub`) should hav
 !!! tip "UWE lab computers"
     On UWE lab computers you need to move your key files onto OneDrive so they are available on other lab computers around campus.
 
-    You should use the commands specific to UWE lab computers to test your keys are correctly located.
+    You should use the commands specific to UWE lab computers to test your keys have copied to OneDrive and are correctly located.
 
 === "Windows"
     The following three commands should all output `True` if you have keys in place.
@@ -218,13 +221,44 @@ Your SSH configuration file contains information SSH uses to connect to the serv
 Your SSH configuration file lives under your home directory/user profile directory.
 
 === "Windows"
-
+    ```
+    C:\Users\<username>\.ssh\config
+    ```
 
 === "macOS"
-
+    ```
+    /Users/<username>/.ssh/config
+    ```
 
 === "Linux"
+    ```
+    /home/<username>/.ssh/config
+    ```
 
-Open this file in Visual Studio Code and check it against the
+=== "UWE lab computers"
+    ```
+    C:\Users\<username>\OneDrive - UWE Bristol\.ssh\config
+    ```
 
-## Still can't connect
+Open this file in Visual Studio Code and check it against the example below:
+
+=== "Windows/macOS/Linux"
+    ```
+    Host csctcloud.uwe.ac.uk
+        Hostname csctcloud.uwe.ac.uk
+        User a.student@live.uwe.ac.uk
+    ```
+
+=== "UWE lab computer"
+    ```
+    Host csctcloud.uwe.ac.uk
+        Hostname csctcloud.uwe.ac.uk
+        User a.student@live.uwe.ac.uk
+        IdentityFile '\OneDrive - UWE Bristol\.ssh\id_rsa'
+    ```
+
+Some things to check for:
+
+* Hostname is `csctcloud.uwe.ac.uk`, spelt correctly
+* User is your full UWE email address, all in lowercase, for example: `a.student@live.uwe.ac.uk`
+* If specified, IdentifyFile points to a private SSH key file which definitely exists
