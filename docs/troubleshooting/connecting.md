@@ -240,6 +240,7 @@ Your SSH configuration file lives under your home directory/user profile directo
     C:\Users\<username>\OneDrive - UWE Bristol\.ssh\config
     ```
 
+### Check your file
 Open this file in Visual Studio Code and check it against the example below:
 
 === "Windows/macOS/Linux"
@@ -262,3 +263,12 @@ Some things to check for:
 * Hostname is `csctcloud.uwe.ac.uk`, spelt correctly
 * User is your full UWE email address, all in lowercase and including the host portion, for example: `a.student@live.uwe.ac.uk`
 * If specified, IdentifyFile points to a private SSH key file which definitely exists
+
+### Check Visual Studio Code is using the correct SSH configuration
+For UWE lab computers only - check that Visual Studio Code is using the version of your SSH configuration file available on OneDrive.
+
+Open up the Settings page with ++ctrl+comma++ (or ++cmd+comma++ on a mac), or by navigating from the file menu (*File > Preferences > Settings*). In the *Search Settings* box search for `Remote.SSH: Config File`.
+
+Check the value here is the absolute path (full path, starting from `C:\`) to the config file in your OneDrive directory:
+
+![SSH Config File setting](../images/onedrive-ssh-config.png)

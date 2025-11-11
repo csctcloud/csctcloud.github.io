@@ -59,7 +59,7 @@ nav:
     - MySQL with a graphical interface: mysql/gui.md
   - Troubleshooting:
     - Connection issues: troubleshooting/connecting.md
-    - Azure CLI: troubleshooting/azure-cli.md
+    # - Azure CLI: troubleshooting/azure-cli.md
   - Additional Topics:
     - Terminal programs: additional/terminals.md
     - Installing OpenSSH: additional/install-openssh.md
