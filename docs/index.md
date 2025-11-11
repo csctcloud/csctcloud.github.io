@@ -3,6 +3,26 @@ CSCT Cloud is a cloud server used for teaching and learning activities in the [S
 
 It runs Ubuntu (24.04), is hosted using [Azure](http://azure.microsoft.com/){:target="_blank"}, and provides students with access to a Linux-based system with the necessary software installed to complete work.
 
+<div class="grid cards" markdown>
+
+-   :material-server:{ .lg .middle } __Get Connected__
+
+    ---
+
+    Follow the Getting Started guide to get connected to the server
+
+    [:octicons-arrow-right-24: Getting started](./getting-started/generate-keys.md)
+
+-   :material-cloud-alert:{ .lg .middle } __Connection Issues?__
+
+    ---
+
+    Having problems connecting to the server? Have a look at the troubleshooting steps
+
+    [:octicons-arrow-right-24: Troubleshoot connection issues](./troubleshooting/connecting.md)
+
+</div>
+
 ## Who has access to the server?
 Students taking a module that uses the server will automatically be given access - in practice this is normally all students on the Computer Science and Cyber Security programmes.
 
