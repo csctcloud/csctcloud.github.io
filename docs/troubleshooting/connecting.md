@@ -41,7 +41,7 @@ When you generated your keypair two files (`id_rsa` and `id_rsa.pub`) should hav
     The following three commands should all output `True` if you have keys in place.
 
     ``` bash
-    [ -e ~/.ssh ] && echo "True"
+    [ -d ~/.ssh ] && echo "True"
     ```
 
     ``` bash
