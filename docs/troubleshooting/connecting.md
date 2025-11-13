@@ -241,7 +241,7 @@ Your SSH configuration file lives under your home directory/user profile directo
     ```
 
 ### Check your file
-Open this file in Visual Studio Code and check it against the example below:
+Open this file in text editor (e.g. Visual Studio Code) and check it against the example below:
 
 === "Windows/macOS/Linux"
     ```
