@@ -70,14 +70,14 @@ features = [
 scheme = "default"
 primary = "teal"
 accent = "teal"
-toggle.icon = "material/lightbulb-outline"
+toggle.icon = "lucide/moon"
 toggle.name = "Switch to dark mode"
 
 [[project.theme.palette]]
 scheme = "slate"
 primary = "teal"
 accent = "teal"
-toggle.icon = "material/lightbulb"
+toggle.icon = "lucide/sun"
 toggle.name = "Switch to light mode"
 
 #[project.theme.font]
