@@ -48,3 +48,5 @@ If you're new to entering and running commands using a terminal, Linux Journey h
 If you wanted, you could stop here and only work using the terminal and terminal based text editors like `nano`, `emacs` or `vim` - which is best is a [contentious topic](https://xkcd.com/378/){:target="_blank"}!
 
 Most students will want to continue to the next page to setup Visual Studio Code to connect to the server however.
+
+If you're planning on working in the terminal, you might want to setup an [SSH configuration file](../additional/ssh-config.md), which will make managing connections to the server a bit easier.

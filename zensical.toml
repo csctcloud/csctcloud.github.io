@@ -25,6 +25,7 @@ nav = [
   { "Additional topics" = [
     { "Terminal programs" = "additional/terminals.md" },
     { "Port forwarding" = "additional/port-forwarding.md" },
+    { "SSH configuration files" = "additional/ssh-config.md" },
     { "Installing OpenSSH" = "additional/install-openssh.md" },
   ] },
 ]
