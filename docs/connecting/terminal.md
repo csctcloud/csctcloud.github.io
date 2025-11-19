@@ -45,8 +45,6 @@ If you're having problems connecting, or are receiving an error (`Permission den
 ## What next?
 If you're new to entering and running commands using a terminal, Linux Journey has some good tutorials on [using the command line](https://labex.io/lesson/the-shell){:target="_blank"} and [working with text](https://labex.io/lesson/stdout-standard-out-redirect){:target="_blank"}.
 
-If you wanted, you could stop here and only work using the terminal and terminal based text editors like `nano`, `emacs` or `vim` - which is best is a [contentious topic](https://xkcd.com/378/){:target="_blank"}!
+If you wanted, you could stop here and only work using the terminal and terminal based text editors like `nano`, `emacs` or `vim` - which is best is a [contentious topic](https://xkcd.com/378/){:target="_blank"}! If you're planning on working in the terminal, you might want to setup an [SSH configuration file](../additional/ssh-config.md), which will make managing connections to the server a bit easier.
 
 Most students will want to continue to the next page to setup Visual Studio Code to connect to the server however.
-
-If you're planning on working in the terminal, you might want to setup an [SSH configuration file](../additional/ssh-config.md), which will make managing connections to the server a bit easier.
