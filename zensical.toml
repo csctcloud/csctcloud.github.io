@@ -9,11 +9,11 @@ nav = [
     { "Installing Azure CLI" = "getting-started/install-azure-cli.md" },
     { "Copying keys to the server" = "getting-started/copy-keys.md" },
   ] },
-  { "Connecting to the server" = [
+  { "Connecting" = [
     { "Connect with the terminal" = "connecting/terminal.md" },
     { "Setup Visual Studio Code" = "connecting/vscode.md" },
   ] },
-  { "MySQL on CSCT Cloud" = [
+  { "MySQL" = [
     { "MySQL login details" = "mysql/login.md" },
     { "Using the MySQL shell" = "mysql/cli.md" },
     { "MySQL with a graphical interface" = "mysql/gui.md" },
@@ -22,7 +22,7 @@ nav = [
     { "Connection issues" = "troubleshooting/connecting.md" },
     { "Azure CLI" = "troubleshooting/azure-cli.md" },
   ] },
-  { "Additional topics" = [
+  { "Additional" = [
     { "Terminal programs" = "additional/terminals.md" },
     { "Port forwarding" = "additional/port-forwarding.md" },
     { "SSH configuration files" = "additional/ssh-config.md" },
@@ -40,6 +40,7 @@ features = [
   "header.autohide",
   "navigation.footer",
   "navigation.sections",
+  "navigation.tabs",
   "navigation.tracking",
   "search.highlight",
   "toc.follow",
